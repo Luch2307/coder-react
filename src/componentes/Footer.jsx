@@ -6,13 +6,13 @@ import Instagram from '../public/imagenes/intagram-icon.svg'
 
 function Footer (){
     return(
-<div classNameName="container">
-    <div classNameName="footer">
+<div className="container">
+    <div className="footer">
         <div className="redes-footer">
             <h3>Contactanos</h3>
             <div className="logo-redes-footer">
             <a href="facebook.com">
-                    <img classNameName={"svg-redes"} src={Facebook} alt="facebook-icon"/>
+                    <img className={"svg-redes"} src={Facebook} alt="facebook-icon"/>
                 </a>
                 <a href="instagram.com">
                     <img className={"svg-redes"} src={Instagram }alt="instagram-icon"/>

@@ -2,65 +2,65 @@
 [
 {
     "id":1,
-    "imagen":"../public/imagenes/pan-clasico.png",
+    "imagen":"/imagenes/falafel.png",
     "nombre":"Falafel",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Falafel de pesto",
     "precio":740,
     "stock":10
 },{
     "id":2,
-    "imagen":"./public//imagenes/pan-clasico.png",
+    "imagen":"./imagenes/pan-clasico.png",
     "nombre":"Pan Clasico",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Pan clasico de 125gr",
     "precio":940,
     "stock":10
 },{
     "id":3,
-    "imagen":"../assetes/img/burga-remo.png" ,
+    "imagen":"/imagenes/burga-remo.png" ,
     "nombre":"Burga de remolacha",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Hamburguesa de remolacha 170gr",
     "precio":640,
     "stock":10
 },{
     "id":4,
-    "imagen":"../assetes/img/teques.png" ,
+    "imagen":"/imagenes/teques.png" ,
     "nombre":"Tequeños",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Tequeños de queso vegano",
     "precio":640,
     "stock":10
 },{
     "id":5,
-    "imagen":"../assetes/img/pack-mix.png"  ,
+    "imagen":"/imagenes/pack-mix.png"  ,
     "nombre":"Burgas Mix",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Mix de hamburguesas veganas",
     "precio":780,
     "stock":10
 },{
     "id":6,
-    "imagen":"../assetes/img/mila-seitan.png",
+    "imagen":"/imagenes/mila-seitan.png",
     "nombre":"Milanesa de seitan",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Milanesa de seintan de 160gr",
     "precio":770,
     "stock":10
 },{
     "id":7,
-    "imagen":"../assetes/img/nuggets-tofu.png" ,
+    "imagen":"/imagenes/nuggets-tofu.png" ,
     "nombre":"Nuggets",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Nuggets de tofu",
     "precio":740,
     "stock":10
 },{
     "id":8 ,   
-    "imagen":"../assetes/img/burga-lente.png" ,
+    "imagen":"/imagenes/burga-lente.png" ,
     "nombre":"Burga de lente",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Hamburguesa de lenteja 170gr",
     "precio":640,
     "stock":10
 },{
     "id":9,    
-    "imagen":"../assetes/img/pan-remo.png",
+    "imagen":"/imagenes/pan-remo.png",
     "nombre":"Pan de remolacha",
-    "descripcion":"milanesa 160gr",
+    "descripcion":"Pan de remolacha 170gr",
     "precio":840,
     "stock":10
 }]
