@@ -1,0 +1,66 @@
+
+[
+{
+    "id":1,
+    "imagen":"../public/imagenes/pan-clasico.png",
+    "nombre":"Falafel",
+    "descripcion":"milanesa 160gr",
+    "precio":740,
+    "stock":10
+},{
+    "id":2,
+    "imagen":"./public//imagenes/pan-clasico.png",
+    "nombre":"Pan Clasico",
+    "descripcion":"milanesa 160gr",
+    "precio":940,
+    "stock":10
+},{
+    "id":3,
+    "imagen":"../assetes/img/burga-remo.png" ,
+    "nombre":"Burga de remolacha",
+    "descripcion":"milanesa 160gr",
+    "precio":640,
+    "stock":10
+},{
+    "id":4,
+    "imagen":"../assetes/img/teques.png" ,
+    "nombre":"Tequeños",
+    "descripcion":"milanesa 160gr",
+    "precio":640,
+    "stock":10
+},{
+    "id":5,
+    "imagen":"../assetes/img/pack-mix.png"  ,
+    "nombre":"Burgas Mix",
+    "descripcion":"milanesa 160gr",
+    "precio":780,
+    "stock":10
+},{
+    "id":6,
+    "imagen":"../assetes/img/mila-seitan.png",
+    "nombre":"Milanesa de seitan",
+    "descripcion":"milanesa 160gr",
+    "precio":770,
+    "stock":10
+},{
+    "id":7,
+    "imagen":"../assetes/img/nuggets-tofu.png" ,
+    "nombre":"Nuggets",
+    "descripcion":"milanesa 160gr",
+    "precio":740,
+    "stock":10
+},{
+    "id":8 ,   
+    "imagen":"../assetes/img/burga-lente.png" ,
+    "nombre":"Burga de lente",
+    "descripcion":"milanesa 160gr",
+    "precio":640,
+    "stock":10
+},{
+    "id":9,    
+    "imagen":"../assetes/img/pan-remo.png",
+    "nombre":"Pan de remolacha",
+    "descripcion":"milanesa 160gr",
+    "precio":840,
+    "stock":10
+}]

@@ -11,3 +11,77 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn{
+  background-color: aliceblue;
+}
+.btn :hover{
+  background-color: #00a323;
+}
+
+footer{
+  padding: 3em;
+  background-color:  #00aa2a;
+
+}
+.black{
+  color:black
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .footer-redes{ grid-area: 1 / 1 / 2 / 2; }
+  .footer-links { grid-area: 1 / 2 / 2 / 3; }
+  
+.footer-logo{
+  width: 10em;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+.logo-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3{
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
+  color: #ffffff;
+}
+.svg-redes{
+  width: 2.5em;
+}
+.redes-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  border-right: solid #fff;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10em 
+}
+a{
+  color:  #fffdfd;
+}
+li{
+  display: flex;
+  flex: end;
+}
+
+.table-table-striped{
+      display: flex;
+      flex-direction: row;
+}
