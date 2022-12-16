@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const ItemsCount = ({ stockItems }) => {
+const ItemsCount = ({ stockItems, setCartQty }) => {
   const [counter, setCounter] = useState(1);
   const [stock, setStock] = useState(stockItems);
 
@@ -21,6 +21,7 @@ const ItemsCount = ({ stockItems }) => {
     if (stock > 0 && counter <= stock) {
       const resetNumber = stock - counter ? 1 : 0;
       setStock(stock - counter);
+      setCartQty(prev => prev+counter)
       setCounter(resetNumber);
       console.log("Agregaste" + counter + "porductos al carrito");
     }

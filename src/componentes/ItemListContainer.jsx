@@ -4,7 +4,7 @@ import ItemList from "./ItemList";
 import arrayProductos from "./arrayProductos.json"
 import { useParams } from "react-router-dom";
 
-const ItemListContainer = () =>{
+const ItemListContainer = ({ setCartQty }) =>{
     const [items, setItems]= useState([]);
     const{categoria} = useParams();
     useEffect(() =>{
@@ -13,7 +13,7 @@ const ItemListContainer = () =>{
     return(
         <div className="container py-5">
                     <div className="alert alert-danger" role="alert">
-                        <ItemList items={items}/>
+                        <ItemList items={items} setCartQty={setCartQty}/>
             </div>
         </div>
     )

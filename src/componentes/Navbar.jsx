@@ -2,7 +2,7 @@ import React from "react";
 import CartWidget from "./CartWidget";
 import { Link, NavLink } from "react-router-dom";
 
-function Navbar() {
+function Navbar({cartQty}) {
   return (
     <div className="container">
       <div className="row">
@@ -59,7 +59,7 @@ function Navbar() {
           </nav>
         </div>
         <div className="col-md-6 d-flex justify-content-end align-items-center">
-          <CartWidget />
+          <CartWidget cartQty={cartQty}/>
         </div>
       </div>
     </div>
