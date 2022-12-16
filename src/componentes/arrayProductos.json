@@ -6,13 +6,15 @@
     "nombre":"Falafel",
     "descripcion":"Falafel de pesto",
     "precio":740,
+    "categoria":"Snacks",
     "stock":10
 },{
     "id":2,
-    "imagen":"./imagenes/pan-clasico.png",
+    "imagen":"/imagenes/pan-clasico.png",
     "nombre":"Pan Clasico",
     "descripcion":"Pan clasico de 125gr",
     "precio":940,
+    "categoria":"Panes",
     "stock":10
 },{
     "id":3,
@@ -20,6 +22,7 @@
     "nombre":"Burga de remolacha",
     "descripcion":"Hamburguesa de remolacha 170gr",
     "precio":640,
+    "categoria":"Hamburguesas",
     "stock":10
 },{
     "id":4,
@@ -27,6 +30,7 @@
     "nombre":"Tequeños",
     "descripcion":"Tequeños de queso vegano",
     "precio":640,
+    "categoria":"Snacks",
     "stock":10
 },{
     "id":5,
@@ -34,6 +38,7 @@
     "nombre":"Burgas Mix",
     "descripcion":"Mix de hamburguesas veganas",
     "precio":780,
+    "categoria":"Hamburguesas",
     "stock":10
 },{
     "id":6,
@@ -41,6 +46,7 @@
     "nombre":"Milanesa de seitan",
     "descripcion":"Milanesa de seintan de 160gr",
     "precio":770,
+    "categoria":"Milanesa",
     "stock":10
 },{
     "id":7,
@@ -48,6 +54,7 @@
     "nombre":"Nuggets",
     "descripcion":"Nuggets de tofu",
     "precio":740,
+    "categoria":"Snacks",
     "stock":10
 },{
     "id":8 ,   
@@ -55,6 +62,7 @@
     "nombre":"Burga de lente",
     "descripcion":"Hamburguesa de lenteja 170gr",
     "precio":640,
+    "categoria":"Hqmburguesa",
     "stock":10
 },{
     "id":9,    
@@ -62,5 +70,6 @@
     "nombre":"Pan de remolacha",
     "descripcion":"Pan de remolacha 170gr",
     "precio":840,
+    "categoria":"Panes",
     "stock":10
 }]

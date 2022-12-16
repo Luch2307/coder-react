@@ -1,15 +1,15 @@
 import React from "react";
 import { useEffect, useState  } from "react";
-import ItemsCount from "./ItemsCount";
 import ItemList from "./ItemList";
 import arrayProductos from "./arrayProductos.json"
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = () =>{
-    const [items, setItems]= useState([])
+    const [items, setItems]= useState([]);
+    const{categoria} = useParams();
     useEffect(() =>{
-            setItems(arrayProductos);
-    },[]);
-    
+            setItems(categoria ? arrayProductos.filter(item=>item.categoria.toLocaleLowerCase() === categoria):arrayProductos);
+    },[categoria]);
     return(
         <div className="container py-5">
                     <div className="alert alert-danger" role="alert">
