@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
+import { useParams } from "react-router-dom";
+import { CartContext } from "./CartContext";
 import Item from "./Item";
 
-const ItemList = ({items,setCartQty}) => {
+
+const ItemList = () => {
+    const {items} = useContext(CartContext)
+    const{categoria} = useParams();
     return(
         <div className="row">
         {
-            items.map(item =>
+            items.filter(items=>items.categoria.toLowerCase()===categoria||!categoria).map(item =>
                 <div className="col-6 mb-2" key={item.id}>
-                <Item item={item} setCartQty={setCartQty}/></div>
+                <Item item={item} /></div>
                 )
             }
     </div>

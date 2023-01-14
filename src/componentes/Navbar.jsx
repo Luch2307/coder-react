@@ -1,32 +1,22 @@
-import React from "react";
 import CartWidget from "./CartWidget";
 import { Link, NavLink } from "react-router-dom";
 
-function Navbar({cartQty}) {
+function Navbar() {
+
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <nav className="navbar navbar-expand-lg ">
-            <div className="container-fluid">
-              <Link className="navbar-brand" to={"/logo"}>
+      <nav className="navbar navbar-expand-lg w-100">
+        <div className="row w-100">
+          <div className="col-md-6">
+            <div className="container-fluid d-flex">
+              <Link className="navbar-brand" to={"/"}>
                 <img
                   src="/imagenes/logo.png"
                   width={100}
                   alt="logo de natural"
                 />
               </Link>
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
+
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
@@ -44,7 +34,7 @@ function Navbar({cartQty}) {
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink  className="nav-link" to={"/category/panes"}>
+                    <NavLink className="nav-link" to={"/category/panes"}>
                       Panes
                     </NavLink>
                   </li>
@@ -56,12 +46,23 @@ function Navbar({cartQty}) {
                 </ul>
               </div>
             </div>
-          </nav>
+          </div>
+            <div className="col-md-6 d-flex justify-content-end align-items-center">
+              <CartWidget />
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+              </div>
         </div>
-        <div className="col-md-6 d-flex justify-content-end align-items-center">
-          <CartWidget cartQty={cartQty}/>
-        </div>
-      </div>
+      </nav>
     </div>
   );
 }

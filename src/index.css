@@ -63,14 +63,14 @@ h3{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-item : center;
   gap: 3em;
   border-right: solid #fff;
 }
 .footer-links{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-item : center;
   padding:10em 
 }
 a{
