@@ -7,6 +7,12 @@ const Checkout = () => {
   const [nombre, setNombre] = useState("")
   const [email, setEmail] = useState("")
   const [numero, setNumero] = useState("")
+   const generarOrden = () => {
+        const order ={
+          buyer: {name: nombre, email: email, phone:telefono},
+          items: cartProducts.map(item =>({id:item.id, title:item.nombre, price_total:item.precio, qty:item.qty}));
+        }
+   }
   return (
     <div className="container">
       <div className="row my-5">
